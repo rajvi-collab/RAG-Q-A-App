@@ -90,9 +90,3 @@ splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=100)
 ```python
 # Filter stored_metadata by filename before building response
 ```
-
----
-
-## Resume Bullet
-
-> Built an end-to-end RAG pipeline using Claude API, FAISS, and sentence-transformers; parses PDFs via FastAPI, retrieves semantically similar chunks, and prompts Claude to return grounded answers with inline source citations — deployed as a single-origin web app with a document management UI.
